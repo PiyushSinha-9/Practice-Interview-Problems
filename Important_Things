@@ -1,0 +1,53 @@
+    
+    ####################################################### youtube gfg problems  AMAZON ######################################################################
+    
+        -> Do revise about fast input and output
+
+        -> Do this problem later Find n-th lexicographically permutation of a string 
+
+        -> Leaving Graph and DP problems like a pro and Binary search problem as well imto se karna binary search 
+
+        -> In kadane init maxGlobal and maxCurrent with first element, write corner cases for array size 0 and 1 and maxGlobal should be checked everytime.
+
+        -> Checking binary tree for BST is a bit confusing, We are going top to bottom think your approach like that only.
+
+        -> Searching in rotated sorted array is a bit confusing as well, find the pivot than decide which side the searching element is going to be there and search normally
+
+        -> in Flattening a Linked list I was literally clue less , do this one more time 
+
+        -> Move all zeros to end while retaining the order as well of array
+
+        -> Odd Even Linked List or say (Rearrange a linked list such that all even and odd positioned nodes are together) is very confusing question gotta do it properly man there are 2 approach for that , 
+            -> in first aproach end position pointer and start position pointer, 
+                    end->next -> start->next;
+                    start -> start->next->next;
+                    end->next->next =NULL
+
+                    start = start->next;
+                    end=end=end->next;
+
+                    run this till floor(no_of_nodes/2)
+            ->  I have to see the second approach;
+
+        -> Two numbers with sum closest to zero is not just sort and get ans by firstTwo, lastTwo and firstlast, it is much more than that;
+                        -> sort, 
+                        -> start Pointer and end pointer 
+                        -> sum=a[start]+ a[end]
+                        -> if su  is -ve , start++
+                        ->if sum is +ve, end--
+                        ->keep track of abs min 
+                        -> till start < end
+
+        -> Convert array into Zig-Zag fashion, use bubble sort and flag
+
+        -> celebraity problem in O(n) time and O(1) space please
+
+        -> Merge two sorted I nee to do a inplace sorting not using extra space
+
+        -> Leaves to DLL is tuff problem definately
+
+        
+
+
+
+    ####################################################### youtube gfg problems  AMAZON ######################################################################
